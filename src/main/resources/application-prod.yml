@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://124.71.98.225:3306/user_rights?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&useSSL=false
+    username: enndfp
+    password: Enndfp1218.
+  # session 失效时间
+  session:
+    timeout: 86400 #一天
+
+
