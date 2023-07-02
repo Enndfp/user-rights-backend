@@ -16,12 +16,12 @@ public class MailUtils {
         props.put("mail.smtp.auth", "true");
         //此处填写SMTP服务器
         props.put("mail.smtp.host", "smtp.163.com");
-        //端口号，网易邮箱端口587
+        //端口号，网易邮箱端口25
         props.put("mail.smtp.port", "25");
         // 此处填写，写信人的账号
-        props.put("mail.user", "userrights@163.com");
+        props.put("mail.user", "xxxx@163.com");
         // 此处填写16位STMP口令
-        props.put("mail.password", "TOZWEOHQMLRRYKUM");
+        props.put("mail.password", "xxxx");
 
         // 构建授权信息，用于进行SMTP进行身份验证
         Authenticator authenticator = new Authenticator() {
