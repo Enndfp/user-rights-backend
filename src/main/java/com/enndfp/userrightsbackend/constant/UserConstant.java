@@ -24,5 +24,5 @@ public interface UserConstant {
     /**
      * 默认头像地址
      */
-    String DEFAULT_AVATARURL = "https://img.enndfp.cn/userrights.png";
+    String DEFAULT_AVATARURL = "https://enndfp-1317534445.cos.ap-guangzhou.myqcloud.com/img/userrights.png";
 }
