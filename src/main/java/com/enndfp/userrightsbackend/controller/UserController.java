@@ -7,6 +7,7 @@ import com.enndfp.userrightsbackend.exception.BusinessException;
 import com.enndfp.userrightsbackend.model.domain.User;
 import com.enndfp.userrightsbackend.model.request.*;
 import com.enndfp.userrightsbackend.service.UserService;
+import com.enndfp.userrightsbackend.utils.MailUtils;
 import com.enndfp.userrightsbackend.utils.ResultUtils;
 import com.enndfp.userrightsbackend.utils.ValidateCodeUtils;
 import lombok.extern.slf4j.Slf4j;
@@ -296,7 +297,7 @@ public class UserController {
             log.info("code={}", code);
 
             //发送邮箱验证码
-            //MailUtils.sendEmail(email, code);
+            MailUtils.sendEmail(email, code);
 
             //需要将生成的验证码保存到Session
             request.getSession().setAttribute("email", code);
