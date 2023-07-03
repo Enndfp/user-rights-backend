@@ -47,7 +47,7 @@
 1.克隆前端项目到本地：
 
 ```bash
-
+git clone https://github.com/Enndfp/user-rights-frontend.git
 ```
 
 2.进入前端项目目录：
@@ -99,7 +99,8 @@ cd user-rights-backend
 
 ### 1.Node.js
 
-[Node.js官网](https://nodejs.org/zh-cn) 	  [Node.js安装](https://blog.csdn.net/weixin_44893902/article/details/121788104?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168830138516800222823395%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=168830138516800222823395&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-121788104-null-null.142^v88^koosearch_v1,239^v2^insert_chatgpt&utm_term=nodejs%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE&spm=1018.2226.3001.4187)
+[Node.js官网](https://nodejs.org/zh-cn) 	  
+[Node.js安装](https://blog.csdn.net/weixin_44893902/article/details/121788104?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168830138516800222823395%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=168830138516800222823395&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-121788104-null-null.142^v88^koosearch_v1,239^v2^insert_chatgpt&utm_term=nodejs%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE&spm=1018.2226.3001.4187)
 
 在 Node.js 之前，JavaScript 只能运行在浏览器中，作为网页脚本使用，为网页添加一些特效，或者和服务器进行通信。有了 Node.js 以后，JavaScript 就可以脱离浏览器，像其它编程语言一样直接在计算机上使用，想干什么就干什么，再也不受浏览器的限制了。
 
@@ -113,7 +114,8 @@ npm 是 JavaScript 的包管理工具，也是世界上最大的软件注册表�
 
 ### 3.yarn
 
-[yarn官网](https://yarnpkg.com/)	    [yarn安装](https://blog.csdn.net/weixin_40808668/article/details/122606543?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168830157416800184147656%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=168830157416800184147656&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-122606543-null-null.142^v88^koosearch_v1,239^v2^insert_chatgpt&utm_term=yarn%E5%AE%89%E8%A3%85&spm=1018.2226.3001.4187)
+[yarn官网](https://yarnpkg.com/)	    
+[yarn安装](https://blog.csdn.net/weixin_40808668/article/details/122606543?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168830157416800184147656%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=168830157416800184147656&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-122606543-null-null.142^v88^koosearch_v1,239^v2^insert_chatgpt&utm_term=yarn%E5%AE%89%E8%A3%85&spm=1018.2226.3001.4187)
 
 Yarn是facebook发布的一款取代npm的包管理工具。
 
