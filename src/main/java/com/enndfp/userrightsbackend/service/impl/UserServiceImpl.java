@@ -92,7 +92,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 
         //3.插入数据
         User user = new User();
-        user.setUsername("User");
+        user.setUsername(userAccount);
         user.setUserAccount(userAccount);
         user.setUserPassword(encryptPassword);
         user.setAvatarUrl(DEFAULT_AVATARURL);
