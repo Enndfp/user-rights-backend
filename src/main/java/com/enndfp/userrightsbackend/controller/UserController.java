@@ -290,19 +290,18 @@ public class UserController {
             // 处理不合法的电子邮件地址
             throw new BusinessException(ErrorCode.PARAMS_ERROR);
         }
-
-        if (StringUtils.isNotBlank(email)) {
-            //生成随机的4位验证码
-            String code = ValidateCodeUtils.generateValidateCode(4).toString();
-            log.info("code={}", code);
-
-            //发送邮箱验证码
-            MailUtils.sendEmail(email, code);
-
-            //需要将生成的验证码保存到Session
-            request.getSession().setAttribute("email", code);
-            return ResultUtils.success(true);
+        if (StringUtils.isBlank(email)) {
+            throw new BusinessException(ErrorCode.NULL_ERROR);
         }
-        throw new BusinessException(ErrorCode.NULL_ERROR);
+        //生成随机的4位验证码
+        String code = ValidateCodeUtils.generateValidateCode(4).toString();
+        log.info("code={}", code);
+
+        //发送邮箱验证码
+        MailUtils.sendEmail(email, code);
+
+        //需要将生成的验证码保存到Session
+        request.getSession().setAttribute("email", code);
+        return ResultUtils.success(true);
     }
 }
