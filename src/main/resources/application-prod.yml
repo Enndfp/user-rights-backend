@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://124.71.98.225:3306/user_rights
-    username: enndfp
-    password: Enndfp1218.
+    url: jdbc:mysql://IP:port/database
+    username: xxx
+    password: xxx
   # session 失效时间
   session:
     timeout: 86400 #一天
